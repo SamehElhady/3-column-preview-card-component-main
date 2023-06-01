@@ -1,0 +1,68 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Lexend Deca', sans-serif;
+}
+p{
+    font-size: 15px;
+}
+
+main{
+    width: 100vw;
+    min-height:100vh ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+section{
+    width: 25%;
+    height: 400px;
+    color: hsla(0, 0%, 100%, 0.75);
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+}
+section h1{
+    text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
+    font-weight: 700;
+    font-family: 'Big Shoulders Display', cursive;
+}
+.column1{
+    background-color: hsl(31, 77%, 52%);
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.column2{
+    background-color: hsl(184, 100%, 22%);
+}
+.column3{
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-right-radius:5px ;
+    border-top-right-radius: 5px;
+}
+.btn{
+    background-color: hsl(0, 0%, 95%) ;
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.row1-4{
+    color: hsl(31, 77%, 52%);
+    text-align: center;
+}
+.row2-4 {
+    color:hsl(184, 100%, 22%);
+    text-align: center;
+}
+.row3-4 {
+    color: hsl(179, 100%, 13%);
+    text-align: center;
+}
